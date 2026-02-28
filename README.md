@@ -9,7 +9,7 @@ según si se superó el puntaje máximo o no.
 3. Genera el cuerpo del mensaje describiendo el resultado del juego.
 4. Llama el SendMail para realizar el envío.
 ## Flujo del evento:
-GameOver → Generación del mensaje → Envío SMTP → VObtener resultado en correo
+GameOver → Generación del mensaje → Envío SMTP → Obtener resultado en correo
 ## Manejo de Respuestas del Servidor
 - Si el envío es exitoso:
   - Se muestra en la interfaz: "Correo enviado correctamente."
